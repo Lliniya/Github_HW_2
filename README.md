@@ -29,6 +29,20 @@
     ```
      git checkout BugReports
      cat > bug_report.txt
+     
+     Sammary
+     Components
+     Version
+     Discription:
+	    1) steps to reproduce
+	    2) actual result
+	    3) expected result
+     Severity
+     Priority
+     Status
+     Author
+     Assignee
+     Attachment
     ```
 
 

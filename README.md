@@ -9,20 +9,21 @@
 - SQL
 - Charles
 - Mobile testing
-
-    `git branch Postman
+    ```
+     git branch Postman
      git branch Jmeter
      git branch CheckLists
      git branch BugReports
      git branch SQL
      git branch Charles
-     git branch MobileTesting`
+     git branch MobileTesting
+    ```
 
 
 2. Запушить все ветки на внешний репозиторий
-
-    `git push -u origin --all`
-
+    ```
+     git push -u origin --all
+    ```
 
 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
     ```
@@ -45,9 +46,9 @@
     ```
 
 6. Запушить main на внешний репозиторий
-
-git push
-
+    ```
+     git push
+    ```
 
 7. В ветке CheckLists набросать структуру чек листа
     ```
@@ -64,13 +65,13 @@ git push
 
 
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в Main
-
-Compare and pull request
-Create pull request
-
+    ```
+     Compare and pull request
+     Create pull request
+    ```
 
 10. Синхронизировать Внешнюю и Локальную ветки Main
-
-git checkout main
-git pull
-
+    ```
+     git checkout main
+     git pull
+    ```

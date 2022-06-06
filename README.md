@@ -10,31 +10,31 @@
 - Charles
 - Mobile testing
 
-git branch Postman
-git branch Jmeter
-git branch CheckLists
-git branch BugReports
-git branch SQL
-git branch Charles
-git branch MobileTesting
+    `git branch Postman
+     git branch Jmeter
+     git branch CheckLists
+     git branch BugReports
+     git branch SQL
+     git branch Charles
+     git branch MobileTesting`
 
 
 2. Запушить все ветки на внешний репозиторий
 
-git push -u origin --all
+    `git push -u origin --all`
 
 
 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
 
-git checkout BugReports
-cat > bug_report.txt
+    `git checkout BugReports
+     cat > bug_report.txt`
 
 
 4. Запушить структуру багрепорта на внешний репозиторий
 
-git add bug_report.txt
-git commit -m "add structure"
-git push
+    `git add bug_report.txt
+     git commit -m "add structure"
+     git push`
 
 
 5. Вмержить ветку Bag Reports в Main

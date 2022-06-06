@@ -25,23 +25,24 @@
 
 
 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
-
-    `git checkout BugReports
-     cat > bug_report.txt`
+    ```
+     git checkout BugReports
+     cat > bug_report.txt
+    ```
 
 
 4. Запушить структуру багрепорта на внешний репозиторий
-
-    `git add bug_report.txt
+    ```
+     git add bug_report.txt
      git commit -m "add structure"
      git push`
-
+    ```
 
 5. Вмержить ветку Bag Reports в Main
-
-git checkout main
-git merge BugReports -m "merge_BugReports"
-
+    ```
+     git checkout main
+     git merge BugReports -m "merge_BugReports"
+    ```
 
 6. Запушить main на внешний репозиторий
 
@@ -49,16 +50,17 @@ git push
 
 
 7. В ветке CheckLists набросать структуру чек листа
-
-git checkout CheckLists
-cat > check_list.txt
-
+    ```
+     git checkout CheckLists
+     cat > check_list.txt
+    ```
 
 8. Запушить структуру на внешний репозиторий
-
-git add check_list.txt
-git commit -m "add structure"
-git push
+    ```
+     git add check_list.txt
+     git commit -m "add structure"
+     git push
+    ```
 
 
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в Main

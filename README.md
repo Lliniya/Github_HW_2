@@ -36,7 +36,7 @@
     ```
      git add bug_report.txt
      git commit -m "add structure"
-     git push`
+     git push
     ```
 
 5. Вмержить ветку Bag Reports в Main
